@@ -23,7 +23,7 @@ function Orders({ refreshKey }) {
         setError("");
 
         const response = await axios.get(
-          "http://localhost:5000/api/orders/myorders",
+          "https://bansal-store.onrender.com/api/orders/myorders",
           {
             headers: {
               Authorization: `Bearer ${token}`

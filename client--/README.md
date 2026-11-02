@@ -120,7 +120,7 @@ npm run dev
 
 Backend runs at:
 
-http://localhost:5000
+https://bansal-store.onrender.com
 
 ### 5. Install Frontend Dependencies
 

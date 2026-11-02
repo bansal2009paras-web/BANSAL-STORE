@@ -47,7 +47,7 @@ function Checkout({ cart, onOrderSuccess }) {
       setMessage("");
 
       const response = await axios.post(
-        "http://localhost:5000/api/orders",
+        "https://bansal-store.onrender.com/api/orders",
         {
           items: cart.map((item) => ({
             product: item._id,

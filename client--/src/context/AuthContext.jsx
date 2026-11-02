@@ -14,7 +14,7 @@ export function AuthProvider({ children }) {
 
   const register = async (name, email, password) => {
     const response = await axios.post(
-      "http://localhost:5000/api/auth/register",
+      "https://bansal-store.onrender.com/api/auth/register",
       { name, email, password }
     );
 
@@ -24,7 +24,7 @@ export function AuthProvider({ children }) {
 
   const login = async (email, password) => {
     const response = await axios.post(
-      "http://localhost:5000/api/auth/login",
+      "https://bansal-store.onrender.com/api/auth/login",
       { email, password }
     );
 
