@@ -59,7 +59,7 @@ router.post("/", protect, async (req, res) => {
       shippingAddress,
       totalAmount
     });
-    console.log("NEW ORDER SAVED:",order_id);
+    console.log("NEW ORDER SAVED:",order._id);
 
     for (const item of verifiedItems) {
       await Product.findByIdAndUpdate(item.product, {
