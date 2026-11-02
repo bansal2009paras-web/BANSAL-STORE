@@ -2,7 +2,7 @@ BANSAL STORE — MERN E-Commerce Website
 
 A modern, responsive, full-stack e-commerce web application built using the MERN stack.
 
-Live Website: https://bansal-store.vercel.app/
+Live Website: [https://bansal-store.vercel.app/](https://vercel.com/bansal2009paras-web/bansal-store/5cs3dZoYzPvnx7WudPBs8KXjJdmw)
 
 Backend API: https://bansal-store.onrender.com/
 
